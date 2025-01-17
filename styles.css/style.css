@@ -6,7 +6,14 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-                    /* navber */
+                                    /* navber */
+  }
+  .titel-font{
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  ul{
+    align-items: center;
   }
 .display-flex{
     display: flex;
@@ -30,14 +37,47 @@
 }
 .dark3{
     color: #727272;
-
+}
+.btn-color{
+    background-color: #FF900E;
+}
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
 }
 nav{
     justify-content: space-between;
-    background-color: rgba(255, 144, 14, 0.1);
-   
+   max-width: 1440px;
+    margin: 0 auto;
 }
-.header-taite, .banner{
-    max-width:1440px;
-    justify-content: center;
+                               /* banner-section */
+.banner-taitel{
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+}
+.banner-img{
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 10%;
+    margin-top: 50px;
+    width: 100%;
+}
+.brand-titel{
+    font-weight: 700;
+    font-size:4.2rem;
+}
+.banner-text{
+    font-weight:400;
+    font-size: 1.1rem;
+}
+.btn-banner{
+    width: 180px;
+    height: 64px;
+    border-radius:8px;
+    color: white;
+}
+@media  screen and (max-width:576px) {
+    .header-taitel, .li-link-link {
+        flex-direction: column;
+    }
 }
